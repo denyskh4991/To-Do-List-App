@@ -2,44 +2,44 @@
 
 This app is a basic yet functional to-do list application designed to help users manage their tasks efficiently. Here's a detailed overview of its features and functionality:
 
-User Interface and Design
+1. User Interface and Design
 
   Clean and Modern UI 
   
-    The app's interface is visually appealing, featuring a minimalist design with a focus on usability. It uses the "Poppins" font, which gives it a contemporary look, and the background is enhanced with a linear gradient for visual interest.
+  The app's interface is visually appealing, featuring a minimalist design with a focus on usability. It uses the "Poppins" font, which gives it a contemporary look, and the background is enhanced with a linear gradient for visual interest.
     
   Task Input Field 
   
-    Users can easily add new tasks using the input field at the top of the app. The placeholder text "Add your text" guides users on what to do.
+  Users can easily add new tasks using the input field at the top of the app. The placeholder text "Add your text" guides users on what to do.
 
   Add Button
   
-    The bright, red "Add" button is prominent, encouraging users to click and add tasks. The button is styled with rounded corners, making it visually distinct and easy to interact with.
+  The bright, red "Add" button is prominent, encouraging users to click and add tasks. The button is styled with rounded corners, making it visually distinct and easy to interact with.
   
   Task List
   
-    The app displays tasks in a clean, vertical list. Each task is accompanied by a checkbox icon that indicates its completion status, and a small "×" icon on the right for easy deletion.
+  The app displays tasks in a clean, vertical list. Each task is accompanied by a checkbox icon that indicates its completion status, and a small "×" icon on the right for easy deletion.
 
-Core Functionality
+2. Core Functionality
 
   Adding Tasks
 
-    Users can input text into the input box and click the "Add" button to create a new task. The app checks if the input field is empty; if it is, an alert prompts the user to enter some text.
+  Users can input text into the input box and click the "Add" button to create a new task. The app checks if the input field is empty; if it is, an alert prompts the user to enter some text.
     When a task is added, it's displayed as a list item with an accompanying delete button.
 
   Marking Tasks as Completed
 
-    Clicking on a task toggles its completion status. Completed tasks are visually distinguished by a line-through effect and a color change, giving clear feedback to the user.
+  Clicking on a task toggles its completion status. Completed tasks are visually distinguished by a line-through effect and a color change, giving clear feedback to the user.
 
   Deleting Tasks
 
-    Each task has a delete button (represented by a "×") that allows users to remove tasks. Clicking this button instantly deletes the task from the list.
+  Each task has a delete button (represented by a "×") that allows users to remove tasks. Clicking this button instantly deletes the task from the list.
 
   Data Persistence
 
-    The app uses the browser's localStorage to save tasks. This ensures that tasks persist even after the page is refreshed or the browser is closed. The list of tasks is automatically loaded from localStorage when the app is reopened.
+  The app uses the browser's localStorage to save tasks. This ensures that tasks persist even after the page is refreshed or the browser is closed. The list of tasks is automatically loaded from localStorage when the app is reopened.
 
-JavaScript Functions
+3. JavaScript Functions
 
   addTask()
 
